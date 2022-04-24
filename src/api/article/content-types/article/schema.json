@@ -24,7 +24,8 @@
       },
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": true,
+      "maxLength": 50
     },
     "date": {
       "pluginOptions": {
@@ -32,7 +33,7 @@
           "localized": false
         }
       },
-      "type": "date",
+      "type": "datetime",
       "unique": false,
       "required": false
     },
@@ -42,7 +43,8 @@
           "localized": true
         }
       },
-      "type": "text"
+      "type": "text",
+      "maxLength": 320
     },
     "content": {
       "pluginOptions": {
@@ -62,7 +64,8 @@
       "type": "string",
       "required": true,
       "unique": true,
-      "maxLength": 50
+      "maxLength": 48,
+      "regex": "^[a-z]+(-[a-z]+)*$"
     }
   }
 }
