@@ -1,8 +1,8 @@
 {
-  "name": "aeosri",
+  "name": "aeosri-cms",
+  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,15 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.8",
-    "@strapi/plugin-users-permissions": "4.1.8",
-    "@strapi/strapi": "^4.1.8",
+    "@strapi/plugin-i18n": "^4.1.11",
+    "@strapi/plugin-users-permissions": "^4.1.11",
+    "@strapi/strapi": "^4.1.11",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.4"
-  },
-  "author": {
-    "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "13ce8a3e-6a56-441e-b8d8-a222c1069427"
@@ -27,6 +24,5 @@
   "engines": {
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  }
 }
